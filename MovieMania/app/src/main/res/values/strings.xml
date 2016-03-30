@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MovieMania</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="toast_stars_error">Stars Error</string>
+    <string name="toast_name_error">Name Error</string>
+    <string name="toast_rate_error">General Rate Error</string>
+    <string name="genres_title">"Genres : "</string>
+
+    <string name="acting">1)Acting</string>
+    <string name="plot">2)Plot</string>
+    <string name="montage">3)Montage</string>
+    <string name="special_effects">4)Special effects</string>
+    <string name="sound_track">5)Sound Track</string>
+    <string name="touch_effect">6)Touch Effect</string>
+
+
+    <string-array name="spinner_sort">
+        <item>Aa - Zz</item>
+        <item>Zz - Aa</item>
+        <item>General Rate(10-0)</item>
+        <item>General Rate(0-10)</item>
+        <item>Average Rate(10-0)</item>
+        <item>Average Rate(0-10)</item>
+    </string-array>
+
+    <string name="button_add">"ADD"</string>
+    <string name="button_update">"UPDATE"</string>
+
+</resources>

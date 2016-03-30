@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp" >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv_item"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="14">
+        <ImageView
+            android:id="@+id/image_film"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/film"
+            android:layout_weight="4"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_items_name"
+            android:text="@string/hello_world"
+            android:textSize="@dimen/text_mediumsize"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:paddingTop="5dp"
+            android:layout_weight="2"
+            />
+
+            <TextView
+                android:id="@+id/tv_item_general_rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0.0"
+                android:textSize="@dimen/text_smallsize"
+                android:layout_marginLeft="@dimen/very_small_margin"
+                android:paddingTop="5dp"
+                android:layout_weight="4"
+                />
+            <TextView
+                android:id="@+id/tv_item_average_rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0.0"
+                android:textSize="@dimen/text_smallsize"
+                android:layout_marginLeft="@dimen/very_small_margin"
+                android:paddingTop="5dp"
+                android:layout_weight="4"
+                />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

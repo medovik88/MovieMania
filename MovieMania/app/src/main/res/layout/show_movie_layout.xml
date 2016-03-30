@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="4"
+            >
+
+            <TextView
+                android:id="@+id/tv_sml_movie_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lost"
+                android:textSize="@dimen/text_mediumsize"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/sml_spinner_genres"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+
+                </Spinner>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_hexagonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/very_small_margin"
+        android:layout_marginRight="@dimen/very_small_margin"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/acting"
+                    android:textSize="@dimen/text_smallsize"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"/>
+                <TextView
+                    android:id="@+id/sml_tv_acting"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:textSize="@dimen/text_mediumsize"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/special_effects"
+                    android:textSize="@dimen/text_verysmallsize"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"/>
+                <TextView
+                    android:id="@+id/sml_tv_special_effects"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:textSize="@dimen/text_mediumsize"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/plot"
+                    android:textSize="@dimen/text_smallsize"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"/>
+                <TextView
+                    android:id="@+id/sml_tv_plot"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:textSize="@dimen/text_mediumsize"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/sound_track"
+                    android:textSize="@dimen/text_smallsize"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"/>
+                <TextView
+                    android:id="@+id/sml_tv_sound_track"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:textSize="@dimen/text_mediumsize"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/montage"
+                    android:textSize="@dimen/text_smallsize"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"/>
+                <TextView
+                    android:id="@+id/sml_tv_montage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:textSize="@dimen/text_mediumsize"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/touch_effect"
+                    android:textSize="@dimen/text_smallsize"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"/>
+                <TextView
+                    android:id="@+id/sml_tv_touch_effect"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:textSize="@dimen/text_mediumsize"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:text="General rate :"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_mediumsize"
+                />
+
+            <TextView
+                android:id="@+id/sml_tv_general_rate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/medium_margin"
+                android:textSize="@dimen/text_mediumsize"
+                android:textColor="@android:color/black"
+                android:gravity="center_vertical"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:text="Average rate :"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_mediumsize"
+                />
+
+            <TextView
+                android:id="@+id/sml_tv_average_rate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/medium_margin"
+                android:textSize="@dimen/text_mediumsize"
+                android:textColor="@android:color/black"
+                android:gravity="center_vertical"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+
+    </LinearLayout>
+
+</LinearLayout>
